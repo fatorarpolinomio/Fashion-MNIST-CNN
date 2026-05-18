@@ -1,0 +1,11 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/lucas/Documentos/Faculdade/Quinto_semestre/IA/Fashion-MNIST-CNN/src/build/cmake_install.cmake",
+		"/home/lucas/Documentos/Faculdade/Quinto_semestre/IA/Fashion-MNIST-CNN/src/build/_deps/matplotplusplus-build/cmake_install.cmake",
+		"/home/lucas/Documentos/Faculdade/Quinto_semestre/IA/Fashion-MNIST-CNN/src/build/_deps/matplotplusplus-build/source/cmake_install.cmake",
+		"/home/lucas/Documentos/Faculdade/Quinto_semestre/IA/Fashion-MNIST-CNN/src/build/_deps/matplotplusplus-build/source/3rd_party/cmake_install.cmake",
+		"/home/lucas/Documentos/Faculdade/Quinto_semestre/IA/Fashion-MNIST-CNN/src/build/_deps/matplotplusplus-build/source/matplot/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

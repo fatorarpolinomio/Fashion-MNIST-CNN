@@ -1,0 +1,3 @@
+-std=c++17
+-I/opt/libtorch/include
+-I/opt/libtorch/include/torch/csrc/api/include
