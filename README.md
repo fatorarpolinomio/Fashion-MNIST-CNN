@@ -2,7 +2,7 @@
 
 Projeto de faculdade, que diz respeito à implementação de uma Convolutional Neural Network (CNN) a qual utilizará como conjunto de dados para treino/teste o Fashion MNIST.
 
-## Liguagens e Tecnologia de compilação
+## Liguagem e Tecnologia de compilação
 
 - **C++**: Linguagem de programação utilizada para implementar a CNN.
 - **CMake**: Sistema de construção utilizado para gerenciar o build do projeto.
@@ -40,9 +40,7 @@ Agora, basta executar o programa:
 ./trabalho_cnn
 ```
 
-## Frameworks utilizados
-
-### LibTorch
+## LibTorch
 
 Biblioteca para trabalhar com CNN e aprendizado profundo.
 
@@ -85,7 +83,7 @@ Rode o comando:
 yay -S libtorch-cpu
 ```
 
-### MatLib++
+## MatLib++
 
 Biblioteca para produção de gráficos para visualização de dados.
 
