@@ -14,32 +14,6 @@ Projeto de faculdade, que diz respeito à implementação de uma Convolutional N
 - **Linux**: `sudo apt-get install cmake`.
 - **Arch Linux**: `sudo pacman -S cmake`
 
-### **Compilando/Rodando**
-
-Para compilar o projeto, siga os passos abaixo:
-
-Abra o terminal na pasta do projeto e rode estes comandos em sequência:
-
-```sh
-# 1. Cria a pasta de compilação e entra nela
-mkdir build && cd build
-
-# 2. Pede pro CMake ler o CMakeLists.txt e preparar o ambiente
-cmake ..
-
-# 3. Compila o seu código (o equivalente ao 'make', mas mais moderno)
-cmake --build .
-```
-
-Se tudo der certo, o CMake chegará em [100%] Built target trabalho_cnn.
-
-Agora, basta executar o programa:
-
-```sh
-# 4. Executa o seu programa
-./trabalho_cnn
-```
-
 ## LibTorch
 
 Biblioteca para trabalhar com CNN e aprendizado profundo.
@@ -97,3 +71,29 @@ Mas, para que o Matplot++ consiga desenhar a janela do gráfico na sua tela, é 
 - **Ubuntu / Debian:** `sudo apt install gnuplot`
 - **macOS (Homebrew):** `brew install gnuplot`
 - **Windows (Winget):** `winget install Gnuplot`
+
+## **Compilando/Rodando**
+
+Para compilar o projeto, siga os passos abaixo:
+
+Abra o terminal na pasta do projeto e rode estes comandos em sequência:
+
+```sh
+# 1. Cria a pasta de compilação e entra nela
+mkdir build && cd build
+
+# 2. Pede pro CMake ler o CMakeLists.txt e preparar o ambiente
+cmake ..
+
+# 3. Compila o seu código (o equivalente ao 'make', mas mais moderno)
+cmake --build .
+```
+
+Se tudo der certo, o CMake chegará em [100%] Built target trabalho_cnn.
+
+Agora, basta executar o programa:
+
+```sh
+# 4. Executa o seu programa
+./trabalho_cnn
+```
