@@ -83,45 +83,17 @@ Rode o comando:
 yay -S libtorch-cpu
 ```
 
-## MatLib++
+## MatPlot++
 
 Biblioteca para produção de gráficos para visualização de dados.
 
-**Instalação para Windows:**
+**Atenção sobre o Matplot++:** **não** é necessário baixar ou instalar os arquivos da biblioteca Matplot++ manualmente. O CMake está configurado (via `FetchContent`) para baixar o código-fonte automaticamente do GitHub e embuti-lo no projeto durante a compilação.
 
-Instale o Gnuplot (o motor de renderização do Matplot++):
+Mas, para que o Matplot++ consiga desenhar a janela do gráfico na sua tela, é estritamente necessário ter o motor gráfico **Gnuplot** instalado no sistema operacional.
 
-```sh
-winget install Gnuplot
-```
+**Como instalar o Gnuplot:**
 
-Usando o vcpkg no terminal, instale o Matplot++:
-
-```sh
-vcpkg install matplotplusplus:x64-windows
-```
-
-**Instalação para MacOS:**
-
-Instale o Gnuplot (o motor de renderização do Matplot++):
-
-```sh
-brew install gnuplot
-```
-
-**Linux (Ubuntu/Debian):**
-
-Rode os comandos:
-
-```sh
-sudo apt update
-sudo apt install gnuplot
-```
-
-**Arch Linux:**
-
-Rode o comando:
-
-```sh
-sudo pacman -S gnuplot
-```
+- **Arch Linux:** `sudo pacman -S gnuplot`
+- **Ubuntu / Debian:** `sudo apt install gnuplot`
+- **macOS (Homebrew):** `brew install gnuplot`
+- **Windows (Winget):** `winget install Gnuplot`
