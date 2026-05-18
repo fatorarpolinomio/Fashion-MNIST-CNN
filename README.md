@@ -16,13 +16,6 @@ Projeto de faculdade, que diz respeito à implementação de uma Convolutional N
 
 ### **Compilando/Rodando**
 
-Caso você não faça nenhuma alteração e queira apenas rodar o programa fornecido no diretório, basta ir até a pasta `build` e executar o programa:
-
-```sh
-cd build
-./trabalho_cnn
-```
-
 Para compilar o projeto, siga os passos abaixo:
 
 Abra o terminal na pasta do projeto e rode estes comandos em sequência:
